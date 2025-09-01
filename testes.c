@@ -154,6 +154,6 @@ int main() {
     }
 
     fclose(arquivo);
-    printf("\nTodos os testes concluídos. Resultados salvos em 'Tabela_de_Resultados.csv'.\n");
+    printf("\nTodos os testes concluídos. Resultados salvos em 'resultados.csv'.\n");
     return 0;
 }
