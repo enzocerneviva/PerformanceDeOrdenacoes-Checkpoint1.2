@@ -12,8 +12,7 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
 - Exibe no console:
   - Amostra inicial e final dos 20 primeiros elementos do vetor
   - Tempo de execução
-  - Número de comparações (quando aplicável)
-- Armazena os resultados no arquivo `resultados.csv` em formato CSV, acrescentando novas linhas a cada execução.
+  - Número de comparações (aproximado para o qsort)
 
 ### `testes.c`
 - Realiza uma **análise completa** para todas as combinações possíveis de:
@@ -23,7 +22,7 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
 - Cada combinação é executada **5 vezes** para calcular:
   - **Mediana do tempo de execução**
   - **Média das comparações**
-- Armazena os resultados no arquivo `Tabela_de_Resultados.csv` em formato CSV.
+- Armazena os resultados no arquivo `resultados.csv` em formato CSV.
 
 ## Compilação
 
