@@ -35,4 +35,4 @@ gcc testes.c -o testes
 
 ## Responsável pelo Projeto
 
-### Enzo Cardilli Cerneviva | Turma: 1CCA | RM: 563480
+- Enzo Cardilli Cerneviva | Turma: 1CCA | RM: 563480
