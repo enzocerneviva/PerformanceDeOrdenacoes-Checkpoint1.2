@@ -1,1 +1,1 @@
-# Atividade-Checkpoint-Medindo-Performance-de-Ordena-es-C-
+# Atividade Checkpoint - Medindo Performance de Ordenações em C
