@@ -24,7 +24,7 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
   - **Média das comparações**
 - Armazena os resultados no arquivo `resultados.csv` em formato CSV.
 
-  ### `resultados.csv`
+### `resultados.csv`
 - Contém os resultados finais do programa `testes.c`.
 - Cada linha representa uma combinação de tamanho, algoritmo e cenário.
 - Colunas:
