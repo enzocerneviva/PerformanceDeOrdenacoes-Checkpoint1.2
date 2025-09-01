@@ -24,6 +24,16 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
   - **Média das comparações**
 - Armazena os resultados no arquivo `resultados.csv` em formato CSV.
 
+  ### `resultados.csv`
+- Contém os resultados finais do programa `testes.c`.
+- Cada linha representa uma combinação de tamanho, algoritmo e cenário.
+- Colunas:
+  - `Tamanho` – tamanho do vetor testado
+  - `Algoritmo` – 1 = Bubble Sort, 2 = Insertion Sort, 3 = QSort
+  - `Cenario` – 1 = Aleatório, 2 = Crescente, 3 = Reverso, 4 = Quase Ordenado
+  - `Tempo(ms)` – mediana do tempo de execução em milissegundos
+  - `Comparacoes` – média de comparações realizadas
+
 ## Compilação
 
 Para compilar qualquer um dos programas, utilize o `gcc` (ou outro compilador C compatível):
