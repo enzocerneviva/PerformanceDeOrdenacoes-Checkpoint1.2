@@ -34,7 +34,7 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
   - `Tempo(ms)` – mediana do tempo de execução em milissegundos
   - `Comparacoes` – média de comparações realizadas
 
-### `graficos.py`
+### `graficos/graficos.py`
 - Script em **Python** para visualização dos resultados obtidos pelo `testes.c`.  
 - Lê o arquivo `resultados.csv` gerado pelos testes de desempenho.  
 - Gera **gráficos de barras agrupadas** mostrando o **número médio de comparações** para cada algoritmo em cada cenário de vetor.  
