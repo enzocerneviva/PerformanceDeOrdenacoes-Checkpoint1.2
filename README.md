@@ -24,15 +24,6 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
   - **Média das comparações**
 - Armazena os resultados no arquivo `resultados.csv` em formato CSV.
 
-### `graficos.py`
-- Script em **Python** para visualização dos resultados obtidos pelo `testes.c`.  
-- Lê o arquivo `resultados.csv` gerado pelos testes de desempenho.  
-- Gera **gráficos de barras agrupadas** mostrando o **número médio de comparações** para cada algoritmo em cada cenário de vetor.  
-- Cada gráfico é gerado para **um tamanho específico de vetor** (1000, 5000, 10000).  
-- Utiliza escala **logarítmica** no eixo Y para melhor visualização de grandes diferenças entre algoritmos simples (Bubble/Insertion) e QSort.  
-- **Bibliotecas utilizadas:** `pandas`, `matplotlib`, `numpy`.
-- Permite identificar visualmente como o desempenho dos algoritmos varia conforme o **cenário de entrada** e o **tamanho do vetor**.
-
 ### `resultados.csv`
 - Contém os resultados finais do programa `testes.c`.
 - Cada linha representa uma combinação de tamanho, algoritmo e cenário.
@@ -42,6 +33,15 @@ Este repositório contém dois programas em C que implementam algoritmos de orde
   - `Cenario` – 1 = Aleatório, 2 = Crescente, 3 = Reverso, 4 = Quase Ordenado
   - `Tempo(ms)` – mediana do tempo de execução em milissegundos
   - `Comparacoes` – média de comparações realizadas
+
+### `graficos.py`
+- Script em **Python** para visualização dos resultados obtidos pelo `testes.c`.  
+- Lê o arquivo `resultados.csv` gerado pelos testes de desempenho.  
+- Gera **gráficos de barras agrupadas** mostrando o **número médio de comparações** para cada algoritmo em cada cenário de vetor.  
+- Cada gráfico é gerado para **um tamanho específico de vetor** (1000, 5000, 10000).  
+- Utiliza escala **logarítmica** no eixo Y para melhor visualização de grandes diferenças entre algoritmos simples (Bubble/Insertion) e QSort.  
+- **Bibliotecas utilizadas:** `pandas`, `matplotlib`, `numpy`.
+- Permite identificar visualmente como o desempenho dos algoritmos varia conforme o **cenário de entrada** e o **tamanho do vetor**.
 
 ## Compilação
 
