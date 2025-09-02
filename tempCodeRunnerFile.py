@@ -1,1 +1,0 @@
-.mean().reset_index()
